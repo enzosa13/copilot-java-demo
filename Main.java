@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a sentence: ");
+        String s = sc.nextLine();
+
+        Map<Character, Integer> freq = new TreeMap<>();
+        for (char c : s.toCharArray()) {
+            if (Character.isWhitespace(c)) continue;
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+        }
+
+        System.out.println("\nCharacter frequencies (excluding spaces):");
+        for (var e : freq.entrySet()) {
+            System.out.println(e.getKey() + " -> " + e.getValue());
+        }
+
+        sc.close();
+    }
+}
+    // write a function that returns an odd  --- IGNORE ---
