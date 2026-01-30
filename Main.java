@@ -17,7 +17,14 @@ public class Main {
     public static void printNumbers(int n) {
         for (int i = 1; i <= n; i++) {
             System.out.println("Number: " + i);
-            //System.out.println("Square: " + (i * i));
+            System.out.println("Square: " + (i * i));
+            
         }
     }
 }
+/*
+1. Intro: myself + demo
+2. Your use of the AI tools, and debugging ops.
+3. Make some changes to it and do a few commits with it.
+4. 3. show GitHub
+*/
