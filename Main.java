@@ -16,9 +16,8 @@ public class Main {
     // Prints numbers from 1 to n
     public static void printNumbers(int n) {
         for (int i = 1; i <= n; i++) {
-            System.out.println("Number: " + i);
-            System.out.println("Square: " + (i * i));
-            
+            System.out.println("Number: " + i);   
+            //System.out.println("Square: " + (i * i));         
         }
     }
 }
