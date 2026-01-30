@@ -8,6 +8,7 @@ public class Test {
     git branch -vv — shows current branch and upstream tracking.
     git push -u origin main — pushes current branch and sets upstream.
     git pull — fetches and merges changes from the remote repository.
+    git commit -m "message" — commits staged changes with a message.
     */
     
 
